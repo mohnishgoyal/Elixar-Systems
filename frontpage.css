@@ -1,0 +1,166 @@
+html{
+  font-family: 'Varela Round', sans-serif;
+  padding-top: 0%;
+}
+body{
+  margin: 0;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 40px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #0000ff;
+}
+
+.logo{
+  float: left;
+  width: 6.5%;
+  padding: 12.5px 16px;
+  }
+
+.topnav .site a {
+  float: left;
+  padding-left: 5px;
+  font-size:27.5px;
+
+}
+
+.topnav .site a:hover{
+  color:#00cccc;
+}
+.part2 .flex-container{
+  height: 300px;
+  color: white;
+  font-size: 50px;
+  padding-top: 300px;
+  font-family: calibri;
+  background-image: url('D:/website/images/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#vision{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #4f2775;
+}
+
+p{
+  text-align: justify;
+  font-size: 35px;
+  color:  #7a7a7a;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-weight: 600;
+}
+
+#events{
+  text-align: center;
+  text-decoration: underline;
+   text-underline-position: under;
+  font-size: 50px;
+  color: #4f2775;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 485px;
+  height: 250px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container {
+  display: flex;
+  height: 270px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
+#collab{
+  text-align: center;
+  text-decoration: underline;
+   text-underline-position: under;
+  font-size: 50px;
+  color: #4f2775;
+}
+
+.part6 #team{
+  text-align: center;
+  text-decoration: underline;
+   text-underline-position: under;
+  font-size: 50px;
+  color: #4f2775;
+}
+
+.part5 .flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  height: 100px;
+  margin: 32.5px;
+  text-align: center;
+  line-height: 0px;
+  font-size: 30px;
+}
+
+.part6 .flex-container > div{
+  background-color: #f1f1f1;
+  width: 350px;
+  height: 350px;
+  margin: 12.5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.mySlides1{
+  animation-name: drive1;
+  animation-duration: 3s;
+  /*animation-delay: .25s;*/
+  animation-fill-mode: both;
+  animation-iteration-count: infinite; 
+  animation-direction: alternate; 
+}
+
+@keyframes drive1{
+  from{transform: translateX(-300px)}
+  to{transform: translateX(300px)}
+}
+ 
+.images{
+  animation-name: drive;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+
+@keyframes drive{
+  from{transform: translateX(-1600px)}
+  to{transform: translateX(0px)}
+}
+

@@ -1,0 +1,124 @@
+html{
+  font-family: 'Varela Round', sans-serif;
+  padding-top: 0%;
+}
+body{
+  margin: 0;
+
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 40px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #0000ff;
+}
+
+.logo{
+  float: left;
+  width: 6.5%;
+  padding: 12.5px 16px;
+  }
+
+.topnav .site a {
+  float: left;
+  padding-left: 5px;
+  font-size:27.5px;
+
+}
+
+.topnav .site a:hover{
+  color:#00cccc;
+}
+
+h1
+{
+  text-align: center;
+  border-color: black;
+   border-style: solid;
+  border-width: 3px;
+  padding: 3%;
+  margin: 3%; 
+  border-radius: 30px;
+   font-size: 5em;
+
+
+}
+
+button
+{
+  padding: 2%;
+  background-color: rgba(200,200,200,0.5);
+
+  padding: 5%;
+  border: 0;
+  outline: none;
+  border-radius:20px; 
+  box-shadow: 2px 4px #888888;
+
+}
+
+button>div{
+  position: absolute;
+  top: 75%;
+}
+button:hover
+{
+  cursor: pointer;
+}
+
+
+.grid1 { grid-area: left1; display: flex; flex-direction: column; }
+
+.grid2 { grid-area: right1; }
+.grid3 { grid-area: left2; }
+
+.grid4 { grid-area: right2; }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'left1  right1'
+    'left1 right1'
+    'left2  right2'
+    'left2  right2';
+  grid-gap: 5%;
+  background-color: black;
+  padding: 5% 5% 10%;
+
+}
+
+.grid-container > div {
+  background-color: rgb(255, 255, 255);
+
+  border-width: 2%;
+  text-align: center;
+  padding: 5vh;
+  font-size: 3em;
+  border-radius: 5%;
+  box-shadow: 4px 8px #888888;
+
+
+}
+
+
+

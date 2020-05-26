@@ -1,0 +1,50 @@
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Merriweather', sans-serif !important;
+
+  }
+  .navbar{
+    height: 10vh;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 3vh;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #0000ff;
+  }
+  .logo img{
+    height: 8vh;
+  }
+
+  .logo{
+    float: left;
+    width: 6.5%;
+    padding: 1vh;
+    }
+  .topnav a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  .topnav #site a {
+    float: left;
+    padding-left: 5px;
+    padding-top: 3vh;
+    font-size:27.5px;
+
+  }
+
+  .topnav #site a:hover{
+    color:#00cccc;
+    background-color: black;
+  }

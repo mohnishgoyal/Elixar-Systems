@@ -1,0 +1,126 @@
+html{
+  font-family: 'Varela Round', sans-serif;
+  padding-top: 0%;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  height: 100%;
+  width: 100vw;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 40px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #0000ff;
+}
+
+.logo{
+  float: left;
+  width: 6.5%;
+  padding: 12.5px 16px;
+  }
+
+.topnav .site a {
+  float: left;
+  padding-left: 5px;
+  font-size:27.5px;
+
+}
+
+.topnav .site a:hover{
+  color:#00cccc;
+}
+
+.topnav .signIn{
+  padding-right: 0px;
+}
+.abt a{
+  color: #0000ff;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.subhead{
+  background-color: #8000ff;
+  height: 40vh;
+  width: 100vw;
+}
+
+.subhead .head{
+  font-family: 'Shadows Into Light', cursive;
+  color: #290033;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
+  padding-top: 4vh;
+}
+
+.subhead .foot{
+  color:   #ff99aa;
+  font-size: 40px;
+  text-align: center;
+}
+
+.content{
+  /*background-color: #cccccc;*/
+  height: 150vh;
+  width: 100vw;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.flex-container > div {
+  /*background-color: #f1f1f1;*/
+  margin: 40px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 350px;
+  flex-wrap: none;
+  align-content: space-between;
+}
+
+.flex-container .flex1{
+  width: 45vw;
+  height: 40vh;
+}
+
+.flex-container .flex2{
+  width: 65vw;
+  height: 40vh;
+  border: 3px solid #800015;
+  border-radius: 60px;
+}
+
+
+.flex-container .flex1 > img{
+    width: 25vw;
+    height: 40vh;
+}
+
+hr{
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+
